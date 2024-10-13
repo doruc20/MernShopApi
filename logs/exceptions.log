@@ -1,0 +1,606 @@
+{
+  error: MongoServerError: bad auth : Authentication failed.
+      at Connection.onMessage (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\connection.js:207:30)
+      at MessageStream.<anonymous> (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\connection.js:60:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10)
+      at Writable.write (node:internal/streams/writable:337:10)
+      at TLSSocket.ondata (node:internal/streams/readable:766:22)
+      at TLSSocket.emit (node:events:513:28) {
+    ok: 0,
+    code: 8000,
+    codeName: 'AtlasError',
+    [Symbol(errorLabels)]: Set(1) { 'HandshakeError' }
+  },
+  level: 'error',
+  message: 'unhandledRejection: bad auth : Authentication failed.\n' +
+    'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  stack: 'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  exception: true,
+  date: 'Sun Oct 13 2024 20:16:29 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 19080,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 94425088,
+      heapTotal: 65097728,
+      heapUsed: 31521376,
+      external: 37135991,
+      arrayBuffers: 36180095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 42959.109 },
+  trace: [
+    {
+      column: 30,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'Connection.onMessage',
+      line: 207,
+      method: 'onMessage',
+      native: false
+    },
+    {
+      column: 60,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 33,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 392,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 333,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'Writable.write',
+      line: 337,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'TLSSocket.ondata',
+      line: 766,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'TLSSocket.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-13-2024 20:16:29'
+}
+{
+  error: MongoServerError: bad auth : Authentication failed.
+      at Connection.onMessage (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\connection.js:207:30)
+      at MessageStream.<anonymous> (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\connection.js:60:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10)
+      at Writable.write (node:internal/streams/writable:337:10)
+      at TLSSocket.ondata (node:internal/streams/readable:766:22)
+      at TLSSocket.emit (node:events:513:28) {
+    ok: 0,
+    code: 8000,
+    codeName: 'AtlasError',
+    [Symbol(errorLabels)]: Set(1) { 'HandshakeError' }
+  },
+  level: 'error',
+  message: 'unhandledRejection: bad auth : Authentication failed.\n' +
+    'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  stack: 'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  exception: true,
+  date: 'Sun Oct 13 2024 20:17:40 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 19096,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 93667328,
+      heapTotal: 64835584,
+      heapUsed: 31412232,
+      external: 37136106,
+      arrayBuffers: 36180210
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 43030.64 },
+  trace: [
+    {
+      column: 30,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'Connection.onMessage',
+      line: 207,
+      method: 'onMessage',
+      native: false
+    },
+    {
+      column: 60,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 33,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 392,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 333,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'Writable.write',
+      line: 337,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'TLSSocket.ondata',
+      line: 766,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'TLSSocket.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-13-2024 20:17:40'
+}
+{
+  error: MongoServerError: bad auth : Authentication failed.
+      at Connection.onMessage (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\connection.js:207:30)
+      at MessageStream.<anonymous> (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\connection.js:60:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\dilav\OneDrive\Masaüstü\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10)
+      at Writable.write (node:internal/streams/writable:337:10)
+      at TLSSocket.ondata (node:internal/streams/readable:766:22)
+      at TLSSocket.emit (node:events:513:28) {
+    ok: 0,
+    code: 8000,
+    codeName: 'AtlasError',
+    [Symbol(errorLabels)]: Set(1) { 'HandshakeError' }
+  },
+  level: 'error',
+  message: 'unhandledRejection: bad auth : Authentication failed.\n' +
+    'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  stack: 'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  exception: true,
+  date: 'Sun Oct 13 2024 20:17:45 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 11280,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 93954048,
+      heapTotal: 64835584,
+      heapUsed: 31217408,
+      external: 37135991,
+      arrayBuffers: 36180095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 43035.453 },
+  trace: [
+    {
+      column: 30,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'Connection.onMessage',
+      line: 207,
+      method: 'onMessage',
+      native: false
+    },
+    {
+      column: 60,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 33,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 392,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 333,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'Writable.write',
+      line: 337,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'TLSSocket.ondata',
+      line: 766,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'TLSSocket.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-13-2024 20:17:45'
+}
+{
+  error: Error: Cannot find module '../middleware/logger'
+  Require stack:
+  - C:\Users\dilav\OneDrive\Masaüstü\shopapp\middleware\error.js
+  - C:\Users\dilav\OneDrive\Masaüstü\shopapp\startup\routes.js
+  - C:\Users\dilav\OneDrive\Masaüstü\shopapp\app.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+      at Module._load (node:internal/modules/cjs/loader:922:27)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:110:18)
+      at Object.<anonymous> (C:\Users\dilav\OneDrive\Masaüstü\shopapp\middleware\error.js:1:16)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\middleware\\error.js',
+      'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\startup\\routes.js',
+      'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../middleware/logger'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\middleware\\error.js\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js\n' +
+    "Error: Cannot find module '../middleware/logger'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\middleware\\error.js\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\middleware\\error.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  stack: "Error: Cannot find module '../middleware/logger'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\middleware\\error.js\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:110:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\middleware\\error.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  exception: true,
+  date: 'Sun Oct 13 2024 20:22:03 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 7268,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 89149440,
+      heapTotal: 61689856,
+      heapUsed: 33805128,
+      external: 37266517,
+      arrayBuffers: 36327276
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 43293.156 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1077,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 922,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 110,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\dilav\\OneDrive\\Masaüstü\\shopapp\\middleware\\error.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-13-2024 20:22:03'
+}
